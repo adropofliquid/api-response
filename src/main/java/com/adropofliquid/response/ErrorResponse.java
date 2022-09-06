@@ -1,3 +1,4 @@
+package com.adropofliquid.response;
 
 import java.util.Map;
 
@@ -29,7 +30,6 @@ public class ErrorResponse {
         private int statusCode;
         private String message;
         private Map<?,?> error;
-
 
         public Builder(int statusCode) {
             this.statusCode = statusCode;

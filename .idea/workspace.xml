@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a328c9d8-4bae-41e4-8267-eff6014b3de4" name="Default Changelist" comment="" />
+    <list default="true" id="a328c9d8-4bae-41e4-8267-eff6014b3de4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ErrorResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ErrorResponse.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -20,6 +27,7 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectId" id="2EBi5b4ePQw8NDKA8Hr7yBfHhoo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -30,7 +38,15 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\DaMi\Documents\Path\api-response\src\main\java" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -42,7 +58,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662075195557</updated>
-      <workItem from="1662075197081" duration="53000" />
+      <workItem from="1662075197081" duration="556000" />
+      <workItem from="1662143655700" duration="3765000" />
+      <workItem from="1662245443514" duration="302000" />
+      <workItem from="1662288027358" duration="3284000" />
+      <workItem from="1662353741795" duration="251000" />
+      <workItem from="1662354021423" duration="1474000" />
+      <workItem from="1662468559023" duration="3418000" />
+      <workItem from="1662482181342" duration="2921000" />
     </task>
     <servers />
   </component>
@@ -50,9 +73,17 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="651" y="84" key="SettingsEditor" timestamp="1662075248898">
+    <state x="690" y="150" key="FileChooserDialogImpl" timestamp="1662483046503">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="651" y="84" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1662075248898" />
+    <state x="690" y="150" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1662483046503" />
+    <state x="624" y="0" key="SettingsEditor" timestamp="1662483824492">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="624" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1662483824492" />
+    <state x="230" y="147" key="new project wizard" timestamp="1662483268651">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="230" y="147" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1662483268651" />
   </component>
 </project>

@@ -1,3 +1,5 @@
+package com.adropofliquid.response;
+
 import java.util.Map;
 
 public class Response {

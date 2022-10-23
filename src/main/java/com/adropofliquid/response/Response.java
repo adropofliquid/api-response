@@ -4,39 +4,39 @@ import java.util.Map;
 
 public class Response {
 
-    private final int statusCode;
+    private final int status;
     private final String message;
-    private final Map<?,?> data;
+    private final Object data;
 
     private Response(Builder builder){
-        this.statusCode = builder.statusCode;
+        this.status = builder.status;
         this.message = builder.message;
         this.data = builder.data;
     }
     //getter functions for spring json response
-    public int getStatusCode() {
-        return statusCode;
+    public int getStatus() {
+        return status;
     }
 
     public String getMessage() {
         return message;
     }
 
-    public Map<?, ?> getData() {
+    public Object getData() {
         return data;
     }
 
     public static class Builder{
-        private int statusCode;
+        private int status;
         private String message;
-        private Map<?,?> data;
+        private Object data;
 
 
-        public Builder(int statusCode) {
-            this.statusCode = statusCode;
+        public Builder(int status) {
+            this.status = status;
         }
 
-        public Builder data(Map<?,?> data){
+        public Builder data(Object data){
             this.data = data;
             return this;
         }

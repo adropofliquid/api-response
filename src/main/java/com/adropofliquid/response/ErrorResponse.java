@@ -4,35 +4,35 @@ import java.util.Map;
 
 public class ErrorResponse {
 
-    private final int statusCode;
+    private final int status;
     private final String message;
-    private final Map<?,?> error;
+    private final Object error;
 
     private ErrorResponse(Builder builder){
-        this.statusCode = builder.statusCode;
+        this.status = builder.status;
         this.message = builder.message;
         this.error = builder.error;
     }
 
     public int getStatusCode() {
-        return statusCode;
+        return status;
     }
 
     public String getMessage() {
         return message;
     }
 
-    public Map<?, ?> getData() {
+    public Object getData() {
         return error;
     }
 
     public static class Builder{
-        private int statusCode;
+        private int status;
         private String message;
-        private Map<?,?> error;
+        private Object error;
 
-        public Builder(int statusCode) {
-            this.statusCode = statusCode;
+        public Builder(int status) {
+            this.status = status;
         }
 
         public Builder error(Map<?,?> error){
